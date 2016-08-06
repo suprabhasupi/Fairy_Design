@@ -752,6 +752,9 @@ scroll-wrapper {
 .scrollbar-chrome > .scroll-element.scroll-x.scroll-scrolly_visible .scroll-element_track { left: -19px; }
 .scrollbar-chrome > .scroll-element.scroll-y.scroll-scrollx_visible .scroll-element_track { top: -19px; }
 
+.second_page4{
+	margin-left: -4em;
+}
 
 @media only screen and (max-width: 1350px) {
 #tabs a{
@@ -809,9 +812,16 @@ img.circle_img{
 }
 .third_page_slidr_new2{
 	padding-right: 0;
+	margin-bottom: 2em;
 }
 #tabs a{
 	    padding: .3em 3.4em;
+}
+.second_page4{
+	right:-3em;
+}
+#thumbnail-slider-next,#thumbnail-slider-prev{
+	display: none;
 }
 }
 
