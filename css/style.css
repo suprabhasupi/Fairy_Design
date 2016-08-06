@@ -1,3 +1,6 @@
+body{
+	overflow-x: hidden;
+}
 .navbar-nav>li>a:hover,
 .navbar-nav>li>a:focus {
     background: transparent;
@@ -1332,21 +1335,30 @@ h4.teansp{
     .border_upper_slider{
     	text-align: center;
     }
+    button.view_all_butn{
+    	right: 33%;
+    }
 	}
 
 	@media only screen and (max-width: 420px) {
 #tabs a {
         padding: .3em 1.5em;
     }
-    .third_page_slider_left_fairy {
-    margin-top: 5.5em;
-    margin-left: -7px;
-}
+   
 p.duble_arrow_para{
 	margin-left: 42%;
 }
 p.frst_page_srch_cont{
 	font-size: 1.7em;
+}
+button.btn.dropdown-toggle{
+	    width: 19.9em;
+}
+.open>.dropdown-menu{
+	min-width: 100%;
+}
+.btn .caret{
+	left: 4em;
 }
 	}
 	@media only screen and (max-width: 355px) {
@@ -1356,9 +1368,20 @@ p.frst_page_srch_cont{
     p.duble_arrow_para{
     	    margin-left: 24%;
     }
+
 	}
 @media only screen and (max-width: 338px) {
     #tabs a {
         padding: .3em .8em;
     }
+     .third_page_slider_left_fairy {
+    margin-top: 5.5em;
+    margin-left: -7px;
+}
+button.btn.dropdown-toggle{
+	width: 14.9em;
+}
+.btn .caret {
+    left: 2em;
+}
 }
